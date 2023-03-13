@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue);
+
+body {
+    color: #6c757d;
+    background-color: #111112;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #4455aa;
+}
+
+.container-fluid {
+    max-width:800px;
+}
