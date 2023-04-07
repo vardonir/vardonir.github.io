@@ -1,5 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Bebas+Neue);
 
+@font-face {
+    font-family: trajan;
+    src: url(fonts/Trajan\ Pro\ Regular.ttf);
+  }
+
+@font-face {
+font-family: flux;
+src: url(fonts/Flux\ Regular.otf);
+}
+
+.div-hover:hover {
+    background-color: #6c757d3b;
+}
+
 body {
     color: #6c757d;
     background-color: #111112;
@@ -10,6 +24,22 @@ h1 {
     color: #4455aa;
 }
 
+.trajan {
+    font-family: 'trajan', serif;
+}
+
+.flux {
+    font-family: 'flux', sans-serif;
+}
+
 .container-fluid {
     max-width:800px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.plain {
+    color: #6c757d;
 }
